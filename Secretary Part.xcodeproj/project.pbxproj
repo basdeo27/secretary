@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5274C7F1B771F4300D7DFDA /* CreateCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = D5274C7E1B771F4300D7DFDA /* CreateCSV.m */; };
+		D5508C2E1B81A22E00F3F090 /* sick.png in Resources */ = {isa = PBXBuildFile; fileRef = D5508C2D1B81A22E00F3F090 /* sick.png */; };
+		D574A3531B69E8B4005192B0 /* Check_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = D574A3521B69E8B4005192B0 /* Check_mark.png */; };
+		D574A3561B69FE05005192B0 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = D574A3551B69FE05005192B0 /* Member.m */; };
+		D574A3591B7058B7005192B0 /* AttendanceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D574A3581B7058B7005192B0 /* AttendanceObject.m */; };
+		D574A35D1B70760B005192B0 /* RecordReview.m in Sources */ = {isa = PBXBuildFile; fileRef = D574A35C1B70760B005192B0 /* RecordReview.m */; };
+		D574A35F1B71EE5A005192B0 /* before-too-late.png in Resources */ = {isa = PBXBuildFile; fileRef = D574A35E1B71EE5A005192B0 /* before-too-late.png */; };
+		D574A3621B71F29B005192B0 /* MemberProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D574A3611B71F29B005192B0 /* MemberProfile.m */; };
 		D5778F2E1B201B50009855C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5778F2D1B201B50009855C7 /* Foundation.framework */; };
 		D5778F301B201B50009855C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5778F2F1B201B50009855C7 /* CoreGraphics.framework */; };
 		D5778F321B201B50009855C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5778F311B201B50009855C7 /* UIKit.framework */; };
@@ -22,6 +30,8 @@
 		D5778F521B201B51009855C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5778F311B201B50009855C7 /* UIKit.framework */; };
 		D5778F5A1B201B51009855C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5778F581B201B51009855C7 /* InfoPlist.strings */; };
 		D5778F5C1B201B51009855C7 /* Secretary_PartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5778F5B1B201B51009855C7 /* Secretary_PartTests.m */; };
+		D5778F671B256C36009855C7 /* AttendanceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D5778F661B256C36009855C7 /* AttendanceRecord.m */; };
+		D587CB9D1B49EB46000FF661 /* NewMember.m in Sources */ = {isa = PBXBuildFile; fileRef = D587CB9C1B49EB46000FF661 /* NewMember.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5274C7D1B771F4300D7DFDA /* CreateCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCSV.h; sourceTree = "<group>"; };
+		D5274C7E1B771F4300D7DFDA /* CreateCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCSV.m; sourceTree = "<group>"; };
+		D5508C2D1B81A22E00F3F090 /* sick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sick.png; path = "../../../../Desktop/Basdeo Inc/attendance/sick.png"; sourceTree = "<group>"; };
+		D574A3521B69E8B4005192B0 /* Check_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Check_mark.png; path = "../../../../Desktop/Basdeo Inc/attendance/Check_mark.png"; sourceTree = "<group>"; };
+		D574A3541B69FE05005192B0 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		D574A3551B69FE05005192B0 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		D574A3571B7058B7005192B0 /* AttendanceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceObject.h; sourceTree = "<group>"; };
+		D574A3581B7058B7005192B0 /* AttendanceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceObject.m; sourceTree = "<group>"; };
+		D574A35B1B70760B005192B0 /* RecordReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordReview.h; sourceTree = "<group>"; };
+		D574A35C1B70760B005192B0 /* RecordReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordReview.m; sourceTree = "<group>"; };
+		D574A35E1B71EE5A005192B0 /* before-too-late.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "before-too-late.png"; path = "../../../../Desktop/Basdeo Inc/attendance/before-too-late.png"; sourceTree = "<group>"; };
+		D574A3601B71F29B005192B0 /* MemberProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberProfile.h; sourceTree = "<group>"; };
+		D574A3611B71F29B005192B0 /* MemberProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberProfile.m; sourceTree = "<group>"; };
 		D5778F2A1B201B50009855C7 /* Secretary Part.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secretary Part.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5778F2D1B201B50009855C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5778F2F1B201B50009855C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +78,10 @@
 		D5778F571B201B51009855C7 /* Secretary PartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Secretary PartTests-Info.plist"; sourceTree = "<group>"; };
 		D5778F591B201B51009855C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5778F5B1B201B51009855C7 /* Secretary_PartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Secretary_PartTests.m; sourceTree = "<group>"; };
+		D5778F651B256C36009855C7 /* AttendanceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendanceRecord.h; sourceTree = "<group>"; };
+		D5778F661B256C36009855C7 /* AttendanceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendanceRecord.m; sourceTree = "<group>"; };
+		D587CB9B1B49EB46000FF661 /* NewMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewMember.h; path = ../NewMember.h; sourceTree = "<group>"; };
+		D587CB9C1B49EB46000FF661 /* NewMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewMember.m; path = ../NewMember.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +108,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D574A35A1B705BCC005192B0 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D574A3541B69FE05005192B0 /* Member.h */,
+				D574A3551B69FE05005192B0 /* Member.m */,
+				D574A3571B7058B7005192B0 /* AttendanceObject.h */,
+				D574A3581B7058B7005192B0 /* AttendanceObject.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		D5778F211B201B50009855C7 = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +155,20 @@
 				D5778F3C1B201B51009855C7 /* AppDelegate.h */,
 				D5778F3D1B201B51009855C7 /* AppDelegate.m */,
 				D5778F3F1B201B51009855C7 /* Main_iPhone.storyboard */,
+				D5274C7D1B771F4300D7DFDA /* CreateCSV.h */,
+				D5274C7E1B771F4300D7DFDA /* CreateCSV.m */,
+				D574A3601B71F29B005192B0 /* MemberProfile.h */,
+				D574A3611B71F29B005192B0 /* MemberProfile.m */,
+				D574A35B1B70760B005192B0 /* RecordReview.h */,
+				D574A35C1B70760B005192B0 /* RecordReview.m */,
 				D5778F421B201B51009855C7 /* Main_iPad.storyboard */,
 				D5778F451B201B51009855C7 /* ViewController.h */,
 				D5778F461B201B51009855C7 /* ViewController.m */,
+				D5778F651B256C36009855C7 /* AttendanceRecord.h */,
+				D5778F661B256C36009855C7 /* AttendanceRecord.m */,
+				D574A35A1B705BCC005192B0 /* Objects */,
+				D587CB9B1B49EB46000FF661 /* NewMember.h */,
+				D587CB9C1B49EB46000FF661 /* NewMember.m */,
 				D5778F481B201B51009855C7 /* Images.xcassets */,
 				D5778F341B201B50009855C7 /* Supporting Files */,
 			);
@@ -129,6 +178,9 @@
 		D5778F341B201B50009855C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D5508C2D1B81A22E00F3F090 /* sick.png */,
+				D574A35E1B71EE5A005192B0 /* before-too-late.png */,
+				D574A3521B69E8B4005192B0 /* Check_mark.png */,
 				D5778F351B201B50009855C7 /* Secretary Part-Info.plist */,
 				D5778F361B201B50009855C7 /* InfoPlist.strings */,
 				D5778F391B201B51009855C7 /* main.m */,
@@ -232,6 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5778F441B201B51009855C7 /* Main_iPad.storyboard in Resources */,
+				D5508C2E1B81A22E00F3F090 /* sick.png in Resources */,
+				D574A35F1B71EE5A005192B0 /* before-too-late.png in Resources */,
+				D574A3531B69E8B4005192B0 /* Check_mark.png in Resources */,
 				D5778F491B201B51009855C7 /* Images.xcassets in Resources */,
 				D5778F411B201B51009855C7 /* Main_iPhone.storyboard in Resources */,
 				D5778F381B201B50009855C7 /* InfoPlist.strings in Resources */,
@@ -253,9 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D587CB9D1B49EB46000FF661 /* NewMember.m in Sources */,
+				D574A3561B69FE05005192B0 /* Member.m in Sources */,
+				D574A35D1B70760B005192B0 /* RecordReview.m in Sources */,
 				D5778F471B201B51009855C7 /* ViewController.m in Sources */,
 				D5778F3E1B201B51009855C7 /* AppDelegate.m in Sources */,
 				D5778F3A1B201B51009855C7 /* main.m in Sources */,
+				D574A3621B71F29B005192B0 /* MemberProfile.m in Sources */,
+				D5778F671B256C36009855C7 /* AttendanceRecord.m in Sources */,
+				D5274C7F1B771F4300D7DFDA /* CreateCSV.m in Sources */,
+				D574A3591B7058B7005192B0 /* AttendanceObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +532,7 @@
 				D5778F611B201B51009855C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5778F621B201B51009855C7 /* Build configuration list for PBXNativeTarget "Secretary PartTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +541,7 @@
 				D5778F641B201B51009855C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+//NSMutableArray *memberList;
+
+NSMutableArray *meetingList;
+NSInteger theRowNumber;
+
+
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+    
+    IBOutlet UITableView *tableOfMembers;
+}
+
+
 
 @end
